@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "sanu" => "sanu@cbd.ae" }
-    s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.0" }
+    s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.2" }
     s.source_files = "MyFramework"
     s.resources = 'MyFramework/*.xib'
     s.vendored_frameworks = "MyFramework.xcframework"
