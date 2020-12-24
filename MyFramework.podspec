@@ -22,7 +22,9 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.0" }
     s.source_files = "MyFramework"
     s.resources = 'MyFramework/*.xib'
+    s.vendored_frameworks = "MyFramework.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = "13.0"
+    s.dependency 'Alamofire'
 end
