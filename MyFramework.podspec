@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.3" }
     s.public_header_files = "NetworkWrapper.framework/Headers/*.h"
     s.source_files = "NetworkWrapper.framework/Headers/*.h"
-    s.vendored_frameworks = "NetworkWrapper.xcframework"
+    s.vendored_frameworks = "NetworkWrapper.framework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = "13.0"
