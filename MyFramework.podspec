@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "NetworkWrapper"
-    s.version      = "1.0.0"
+    s.version      = "1.0.6"
     s.summary      = "A brief description of MyFramework project."
     s.description  = "An extended description of MyFramework project"
     s.homepage     = "https://github.com/sanu/MyFramework"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "sanu" => "sanu@cbd.ae" }
-    s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.5" }
+    s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.6" }
     s.public_header_files = "NetworkWrapper.framework/Headers/*.h"
     s.source_files = "NetworkWrapper.framework/Headers/*.h"
     s.vendored_frameworks = "NetworkWrapper.framework"
