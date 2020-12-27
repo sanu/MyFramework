@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-    s.name         = "MyFramework"
+    s.name         = "NetworkWrapper"
     s.version      = "1.0.0"
     s.summary      = "A brief description of MyFramework project."
     s.description  = "An extended description of MyFramework project"
@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "sanu" => "sanu@cbd.ae" }
-    s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.2" }
-    s.source_files = "MyFramework"
-    s.resources = 'MyFramework/*.xib'
-    s.vendored_frameworks = "MyFramework.xcframework"
+    s.source       = { :git => 'https://github.com/sanu/MyFramework.git', :tag => "1.0.3" }
+    s.public_header_files = "NetworkWrapper.framework/Headers/*.h"
+    s.source_files = "NetworkWrapper.framework/Headers/*.h"
+    s.vendored_frameworks = "NetworkWrapper.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = "13.0"

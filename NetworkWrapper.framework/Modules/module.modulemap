@@ -1,0 +1,11 @@
+framework module NetworkWrapper {
+  umbrella header "NetworkWrapper.h"
+
+  export *
+  module * { export * }
+}
+
+module NetworkWrapper.Swift {
+    header "NetworkWrapper-Swift.h"
+    requires objc
+}
